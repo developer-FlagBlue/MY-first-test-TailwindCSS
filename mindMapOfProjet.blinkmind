@@ -1,0 +1,216 @@
+{
+  "rootTopicKey": "4ad94481-dbdf-48cb-bcc2-15fed8084c72",
+  "editorRootTopicKey": "4ad94481-dbdf-48cb-bcc2-15fed8084c72",
+  "focusKey": "f2282bb4-dc0c-4107-8db5-00eb48f3f31b",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "e0c29f0d-0405-4474-8e6c-017aa1ddba93",
+      "parentKey": "78994dcc-39e2-4ffa-8b89-f4ffb2bbbc6c",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npx tailwindcss -i ./src/style/style.css -o ./dist/output.css --watch "
+        }
+      ]
+    },
+    {
+      "key": "0f3a8c2a-1040-407d-abad-f835edccaec0",
+      "parentKey": "909d112c-3036-43f9-9ea9-37253d0741fb",
+      "subKeys": [
+        "0e948f03-5b9b-4d51-9052-713807e2b52a",
+        "f2282bb4-dc0c-4107-8db5-00eb48f3f31b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "input.css "
+        }
+      ]
+    },
+    {
+      "key": "78994dcc-39e2-4ffa-8b89-f4ffb2bbbc6c",
+      "parentKey": "909d112c-3036-43f9-9ea9-37253d0741fb",
+      "subKeys": [
+        "237bc80d-88ee-4db9-9541-908370bee0a3",
+        "ff612677-620f-494b-a8bb-0eeee7686258",
+        "84b5e0f7-be83-482c-826a-362389fda8da",
+        "e0c29f0d-0405-4474-8e6c-017aa1ddba93"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm "
+        }
+      ]
+    },
+    {
+      "key": "237bc80d-88ee-4db9-9541-908370bee0a3",
+      "parentKey": "78994dcc-39e2-4ffa-8b89-f4ffb2bbbc6c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm init -y  "
+        }
+      ]
+    },
+    {
+      "key": "ff612677-620f-494b-a8bb-0eeee7686258",
+      "parentKey": "78994dcc-39e2-4ffa-8b89-f4ffb2bbbc6c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm install -D tailwindcss"
+        }
+      ]
+    },
+    {
+      "key": "f2282bb4-dc0c-4107-8db5-00eb48f3f31b",
+      "parentKey": "0f3a8c2a-1040-407d-abad-f835edccaec0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " https://www.alsacreations.com/tuto/lire/1812-Tailwind-CSS-decouverte-du-framework-original-et-innovant.html"
+        }
+      ]
+    },
+    {
+      "key": "84b5e0f7-be83-482c-826a-362389fda8da",
+      "parentKey": "78994dcc-39e2-4ffa-8b89-f4ffb2bbbc6c",
+      "subKeys": [],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npx tailwindcss init "
+        }
+      ]
+    },
+    {
+      "key": "4ad94481-dbdf-48cb-bcc2-15fed8084c72",
+      "parentKey": null,
+      "subKeys": [
+        "909d112c-3036-43f9-9ea9-37253d0741fb"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " tailwindcss "
+        }
+      ]
+    },
+    {
+      "key": "0e948f03-5b9b-4d51-9052-713807e2b52a",
+      "parentKey": "0f3a8c2a-1040-407d-abad-f835edccaec0",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "@tailwind base;\n@tailwind components;\n@tailwind utilities;"
+        }
+      ]
+    },
+    {
+      "key": "909d112c-3036-43f9-9ea9-37253d0741fb",
+      "parentKey": "4ad94481-dbdf-48cb-bcc2-15fed8084c72",
+      "subKeys": [
+        "78994dcc-39e2-4ffa-8b89-f4ffb2bbbc6c",
+        "0f3a8c2a-1040-407d-abad-f835edccaec0"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Start"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "34px",
+          "borderRadius": "35px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "10px 15px 10px 15px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "rgb(113, 203, 45)"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "border": "1px solid #e8eaec",
+          "borderRadius": "20px",
+          "fontSize": "17px",
+          "padding": "4px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px",
+          "lineColor": "white"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}
